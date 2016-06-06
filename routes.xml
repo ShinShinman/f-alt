@@ -49,6 +49,12 @@
 
     </route>
 
+    <route from="/:language/news/:year" to="/news/:year">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
     <route from="/:language/audio-video/" to="/audio-video/">
 
         <filter parameter=":language" match="[a-z]{2}" />

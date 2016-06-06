@@ -13,11 +13,14 @@ class datasourcenews extends SectionDatasource
     public $dsParamSORT = 'order';
     public $dsParamHTMLENCODE = 'no';
     public $dsParamASSOCIATEDENTRYCOUNTS = 'no';
+    
 
     public $dsParamFILTERS = array(
+        'system:creation-date' => '{$year}',
         '20' => 'yes',
         '194' => 'Aktualności',
     );
+        
 
     public $dsParamINCLUDEDELEMENTS = array(
         'title-pl',
@@ -28,9 +31,9 @@ class datasourcenews extends SectionDatasource
         'series-en',
         'lead-pl: formatted',
         'lead-en: formatted',
+        'category',
         'date-place-en',
         'date-place-pl',
-        'category',
         'cover',
         'calendar'
     );
@@ -58,10 +61,10 @@ class datasourcenews extends SectionDatasource
             'name' => 'News',
             'author' => array(
                 'name' => 'Olaf Schindler',
-                'website' => 'http://orkana39.pl/clients/alternativa',
+                'website' => 'http://localhost/f-alt.org',
                 'email' => 'studio@orkana39.pl'),
             'version' => 'Symphony 2.6.1',
-            'release-date' => '2015-07-14T14:35:50+00:00'
+            'release-date' => '2016-06-06T16:41:44+00:00'
         );
     }
 
