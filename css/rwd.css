@@ -1,0 +1,344 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+}
+
+
+
+
+/************* MOBILE MENU **************/
+/*MOBILE MENU*/
+.mobile {
+  overflow: initial;
+  display: none;
+}
+.mobile nav.language {
+	margin-left: 30px;
+}
+
+.mobile .main-menu {}
+.mobile .hamburger {
+	margin-right: 20px;
+}
+.mobile .hamburger > a {
+  background: url('../images/hamburger.svg') no-repeat center top;
+  height: 35px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  border: none;
+}
+.mobile ul {
+  background-color: #363636;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /*height: 35px;*/
+  overflow: hidden;
+}
+.mobile ul li {
+  line-height: 35px;
+  overflow: auto;
+}
+.mobile ul.submenu {
+	display: none;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.mobile ul.submenu a {
+	display: block;
+	border: none;
+}
+.mobile ul.submenu li, .mobile ul.submenu li a {
+	line-height: 50px;
+}
+.mobile ul.submenu li.search {
+	margin-top: 20px;
+	padding: 0 20px;
+}
+.mobile ul.submenu #search-form {
+	width: 100%;
+	margin-top: 9px;
+	margin-right: 20px;
+	float: none;
+}
+.mobile #search-form input[type = 'text'] {
+	width: 55%;
+}
+.mobile ul.submenu li:not(.label):not(.search):hover {
+	background-color: #5F5F5F;
+}
+.mobile ul.submenu li.label span {
+	padding: 0 20px;
+}
+.mobile ul.submenu > li a {
+	padding: 0 20px;
+}
+.mobile ul.submenu ul li a {
+	padding: 0 40px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+
+@media screen and (min-width: 1172px) and (max-width: 1464px) {
+    section:not(.top-nav) {
+    width: 1132px;
+  }
+}
+
+@media screen and (min-width: 889px) and (max-width: 1171px) {
+  section:not(.top-nav) {
+    width: 849px;
+  }
+}
+
+@media screen and (min-width: 699px) and (max-width: 888px) {
+  section:not(.top-nav) {
+    width: 572px;
+  }
+}
+
+@media screen and (max-width: 698px) {
+
+
+  section:not(.top-nav) {
+    width: 90%;
+  }
+
+  body{
+    font-size: 14px;
+  }
+
+  /***TOP NAV***/
+  .top-nav {
+    display: none;
+  }
+  .top-nav.mobile {
+    display: block;
+  }
+
+	
+  header, .post article:not(.brick), .about article:not(.brick), .partners, .banner{
+    width: 100%;
+  }
+
+  /***HOME***/
+	.calendar .event-info {
+		width: 92%;
+		height: 74%;
+	}
+
+	/***POST***/
+  .post h1, .about h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  header h1.slogan{
+    font-size: 48px
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons div {  
+    font-size: 16px;
+  }
+
+  .owl-prev {
+  left: -17px;
+}
+  .owl-next {
+  right: -17px;
+  }
+
+  /*ASIDE*/
+  .post aside {
+  	width: 100%;
+  }
+  .post aside .gallery .item {
+  	width: 100%;
+  	height: auto;
+  }
+
+
+
+/******* BRICK *********/
+
+article.brick, article.name-brick, article.video-brick, article.brick.calendar {
+    width: 94.5%;
+  }
+/*
+  article.brick h1{
+    font-size: 30px
+  }
+	article.brick h1.slogan{
+    font-size: 50px !important;
+  }
+*/
+  .brick img {
+    max-height: 300px;
+    width: auto;
+    float: none;
+    margin-right:  10px;
+    display:  block;
+  }
+
+
+  section.banner   {
+  height: 60vh;
+  margin: 15vh 15vw 5vh;
+  width: 60% !important;
+}
+
+  section.banner div {
+    width: 100%;
+    height: auto;
+    margin:0;
+  }
+
+
+  /********* FOOTER *******/
+  .footer article, .post .footer article, .about .footer article {
+  width: 100%;
+  margin-bottom: 20px
+
+}

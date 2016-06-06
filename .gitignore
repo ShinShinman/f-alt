@@ -1,0 +1,9 @@
+.syignore
+.syncany/
+bower_components/
+node_modules/
+static/
+fonts/
+images/*
+*.sublime-workspace
+*.sublime-project

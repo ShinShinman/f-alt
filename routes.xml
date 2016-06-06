@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <route from="/:language/" to="/index/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/post/:title/" to="/post/:title/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/indeks-osob/" to="/indeks-osob/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/people/" to="/indek-sosob/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/people/:name/" to="/people/:name">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/video/" to="/video/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/about/:title/" to="/about/:title">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/news/" to="/news/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/audio-video/" to="/audio-video/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/search/" to="/search/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/newsletter/" to="/newsletter/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/newsletter/:param" to="/newsletter/:param">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/subscription-check/" to="/subscription-check/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/subscribe/" to="/subscribe/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/unsubscribe/" to="/unsubscribe/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/privacy-policy/" to="/privacy-policy/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/xhrsubmit/" to="/xhrsubmit/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+    <route from="/:language/newsletter-f-alt/" to="/newsletter-f-alt/">
+
+        <filter parameter=":language" match="[a-z]{2}" />
+
+    </route>
+
+</routes>
