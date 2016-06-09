@@ -1398,3 +1398,16 @@ nav.search-menu {
 .seledynowy, .seledynowy .owl-theme .owl-controls .owl-page.active span {
   color: rgb(0, 118, 132) !important;
 }
+
+
+
+/***** LOGO ALTERNATIVA 2015 *****/
+a.alt2015 {
+  background: #363636 url("../images/logo-alt2015.png") no-repeat center 10px;
+  display: inline-block;
+  width: 122px;
+  height: 22px;
+}
+a.alt2015:hover {
+  padding-bottom: 0.3em;
+}

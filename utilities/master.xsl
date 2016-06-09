@@ -84,6 +84,9 @@
 					<nav class="main-menu">
 						<ul class="inline-list dropdown">
 							<xsl:if test="data/main-menu/entry[projects = 'Yes']">
+			          <li>
+			            <a href="http://alternativa-gdansk.pl/" class="alt2015 hide-text" target="_blank">Alternativa 2015</a>
+			          </li>
 								<li>
 									<a href="javascript:void(0)"><xsl:value-of select="//dictionary/projekty[@lang = $language]" /></a>
 									<ul>
