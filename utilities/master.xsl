@@ -186,7 +186,7 @@
 					</header>
 					<article>
 						<p class="footnote">
-						<strong>email:</strong><a href="mailto:fundacja.alternativa@gmail.com"> fundacja.alternativa@gmail.com</a><br/>
+						<strong>email:</strong><a href="mailto:biuro@f-alt.org"> biuro@f-alt.org</a><br/>
 						<strong><xsl:value-of select="//dictionary/tel[@lang = $language]" /></strong> 58 354 33 41</p>
 						<!--
 						<p class="footnote">
@@ -226,15 +226,15 @@
 						<p class="footnote"><strong><xsl:value-of select="//dictionary/zarzad[@lang = $language]" /></strong><br/>
 						Aneta Szyłak, Prezes<br/>
 						Maksymilian Bochenek, Wiceprezes<br/></p>
-						<p class="footnote"><strong><xsl:value-of select="//dictionary/krs[@lang = $language]" /></strong> 0000527184 NIP 5833171484<br/>
+						<p class="footnote"><strong><xsl:value-of select="//dictionary/krs[@lang = $language]" /></strong> 0000527184 <strong>NIP</strong> 5833171484<br/>
 						<strong><xsl:value-of select="//dictionary/regon[@lang = $language]" /></strong> 222180214</p>
 					</article>
 					<article>
 						<p class="footnote">
 						<strong><xsl:value-of select="//dictionary/nr-rach[@lang = $language]" /></strong><br/>
-						80 1020 1811 0000 0802 0259 9892<br/>Bank PKO BP SA III o/Gdańsk <br/>
-						<strong>iban:</strong> PL 80 1020 1811 0000 0802 0259 9892
-						<strong>SWIFT:</strong> BPKOPLPW <br/>
+						58 1750 0012 0000 0000 3329 7898<br/>Raiffaisen Polbank <br/>
+						<!--<strong>iban:</strong> PL 80 1020 1811 0000 0802 0259 9892
+						<strong>SWIFT:</strong> BPKOPLPW <br/>-->
 						</p>
 					</article>
 				</section>
