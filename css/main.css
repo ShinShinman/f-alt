@@ -556,6 +556,12 @@ nav.main-menu ul.dropdown ul li a {
 nav.main-menu ul.dropdown ul li a:hover {
   border: none;
 }
+nav.main-menu ul.dropdown li > ul li {
+  width: 100px;
+}
+nav.main-menu ul.dropdown li > ul li > ul li {
+  width: 270px;
+}
 
 nav.language{
   margin-left: 50px;
@@ -1410,11 +1416,18 @@ nav.search-menu {
 
 /***** LOGO ALTERNATIVA 2015 *****/
 a.alt2015 {
-  background: #363636 url("../images/logo-alt2015.png") no-repeat center 10px;
+  background: #363636 url("../images/logo-alt2016.png") no-repeat center 10px;
   display: inline-block;
   width: 122px;
   height: 22px;
 }
 a.alt2015:hover {
   padding-bottom: 0.3em;
+}
+
+
+/***** NOWE MENU – 13.06.2016 *****/
+nav.main-menu ul.dropdown ul ul {
+  left: 100px;
+  top: -17px;
 }

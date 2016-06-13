@@ -83,17 +83,31 @@
 					</nav>
 					<nav class="main-menu">
 						<ul class="inline-list dropdown">
-							<xsl:if test="data/main-menu/entry[projects = 'Yes']">
-			          <li>
-			            <a href="http://alternativa-gdansk.pl/" class="alt2015 hide-text" target="_blank">Alternativa 2015</a>
-			          </li>
+							<li>
+								<a href="http://alternativa-gdansk.pl/" class="alt2015 hide-text" target="_blank">Alternativa 2015</a>
+							</li>
+							<!--<xsl:if test="data/main-menu/entry[projects = 'Yes']">-->
 								<li>
 									<a href="javascript:void(0)"><xsl:value-of select="//dictionary/projekty[@lang = $language]" /></a>
 									<ul>
-										<xsl:apply-templates select="data/main-menu/entry[projects = 'Yes']"/>
+										<!--<xsl:apply-templates select="data/main-menu/entry[projects = 'Yes']"/>-->
+										<li>
+											<a href="javascript:void(0)">2015</a>
+											<ul>
+												<li><a href="/f-alt.org/pl/news/2015/#filter=.stacja-transformacja">Stacja Transformacja</a></li>
+												<li><a href="/f-alt.org/pl/news/#filter=.palermo">Palermo</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0)">2016</a>
+											<ul>
+												<li><a href="/f-alt.org/pl/news/2016/#filter=.alterantiva-2016-uszczerbki-i-starty">Alternativa 2016 "Uszczerbki i starty"</a></li>
+												<li><a href="/f-alt.org/pl/news/2016/#filter=.stacja-transformacja">Stacja Transformacja</a></li>
+											</ul>
+										</li>
 									</ul>
 								</li>
-							</xsl:if>
+							<!--</xsl:if>-->
 							<xsl:apply-templates select="data/main-menu/entry[projects = 'No']"/>
 						</ul>
 					</nav>
