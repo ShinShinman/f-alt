@@ -84,7 +84,7 @@
 					<nav class="main-menu">
 						<ul class="inline-list dropdown">
 							<li>
-								<a href="http://alternativa-gdansk.pl/" class="alt2015 hide-text" target="_blank">Alternativa 2015</a>
+								<a href="http://alternativa-gdansk.pl/" class="alt2016 hide-text" target="_blank">Alternativa 2016</a>
 							</li>
 							<!--<xsl:if test="data/main-menu/entry[projects = 'Yes']">-->
 								<li>
@@ -142,14 +142,30 @@
 									<input type="hidden" name="sections" value="post,team,coworkers,about" />
 								</form>
 							</li>
-							<xsl:if test="data/main-menu/entry[projects = 'Yes']">
-								<li class="label">
-									<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /></span>
-									<ul>
-										<xsl:apply-templates select="data/main-menu/entry[projects = 'Yes']"/>
-									</ul>
-								</li>
-							</xsl:if>
+
+							<li>
+								<a href="http://alternativa-gdansk.pl/" class="alt2016 hide-text" target="_blank">Alternativa 2016</a>
+							</li>
+
+							<li class="label">
+								<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /> 2015</span>
+								<ul>
+									<li><a href="/f-alt.org/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
+									<li><a href="/f-alt.org/pl/news/#filter=.palermo">Palermo</a></li>
+								</ul>
+							</li>
+
+							<li class="label">
+								<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /> 2016</span>
+								<ul>
+									<li><a href="/f-alt.org/pl/news/2016/#filter=.alterantiva-2016-uszczerbki-i-starty"><xsl:value-of select="//dictionary/uszczerbki-i-starty[@lang = $language]" /></a></li>
+									<li><a href="/f-alt.org/pl/news/2016/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
+								</ul>
+							</li>
+
+							<li><a href="/f-alt.org/pl/news/#filter=.publikacje"><xsl:value-of select="//dictionary/publikacje[@lang = $language]" /></a></li>
+							<li><a href="/f-alt.org/pl/news/#filter=.inne"><xsl:value-of select="//dictionary/inne[@lang = $language]" /></a></li>
+
 							<xsl:apply-templates select="data/main-menu/entry[projects = 'No']"/>
 						</ul>
 
