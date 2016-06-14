@@ -197,6 +197,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .mobile ul.submenu ul li a {
 	padding: 0 40px;
 }
+.mobile ul.submenu a.alt2016 {
+  display: inline-block;
+}
 
 
 /* ==========================================================================
