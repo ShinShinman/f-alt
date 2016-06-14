@@ -94,17 +94,19 @@
 										<li>
 											<a href="javascript:void(0)">2015</a>
 											<ul>
-												<li><a href="/f-alt.org/pl/news/2015/#filter=.stacja-transformacja">Stacja Transformacja</a></li>
+												<li><a href="/f-alt.org/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
 												<li><a href="/f-alt.org/pl/news/#filter=.palermo">Palermo</a></li>
 											</ul>
 										</li>
 										<li>
 											<a href="javascript:void(0)">2016</a>
 											<ul>
-												<li><a href="/f-alt.org/pl/news/2016/#filter=.alterantiva-2016-uszczerbki-i-starty">Alternativa 2016 "Uszczerbki i starty"</a></li>
-												<li><a href="/f-alt.org/pl/news/2016/#filter=.stacja-transformacja">Stacja Transformacja</a></li>
+												<li><a href="/f-alt.org/pl/news/2016/#filter=.alterantiva-2016-uszczerbki-i-starty"><xsl:value-of select="//dictionary/uszczerbki-i-starty[@lang = $language]" /></a></li>
+												<li><a href="/f-alt.org/pl/news/2016/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
 											</ul>
 										</li>
+										<li><a href="/f-alt.org/pl/news/#filter=.publikacje"><xsl:value-of select="//dictionary/publikacje[@lang = $language]" /></a></li>
+										<li><a href="/f-alt.org/pl/news/#filter=.inne"><xsl:value-of select="//dictionary/inne[@lang = $language]" /></a></li>
 									</ul>
 								</li>
 							<!--</xsl:if>-->

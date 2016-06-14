@@ -557,10 +557,14 @@ nav.main-menu ul.dropdown ul li a:hover {
   border: none;
 }
 nav.main-menu ul.dropdown li > ul li {
-  width: 100px;
+  width: 140px;
 }
 nav.main-menu ul.dropdown li > ul li > ul li {
   width: 270px;
+}
+nav.main-menu ul.dropdown ul ul {
+  left: 140px;
+  top: -17px;
 }
 
 nav.language{
@@ -1423,11 +1427,4 @@ a.alt2015 {
 }
 a.alt2015:hover {
   padding-bottom: 0.3em;
-}
-
-
-/***** NOWE MENU – 13.06.2016 *****/
-nav.main-menu ul.dropdown ul ul {
-  left: 100px;
-  top: -17px;
 }

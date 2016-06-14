@@ -14,7 +14,10 @@ class datasourcedictionary extends StaticXMLDatasource
 <fun-alt lang=\"en\">alternativa foundation</fun-alt><imie-nazwisko lang=\"pl\">Imię i nazwisko</imie-nazwisko>
 <imie-nazwisko lang=\"en\">Name</imie-nazwisko>
 <index-osob lang=\"pl\">indeks osób</index-osob>
-<index-osob lang=\"en\">TRANSLATE</index-osob><kalendarz lang=\"pl\">Kalendarz</kalendarz>
+<index-osob lang=\"en\">TRANSLATE</index-osob>
+<inne lang=\"pl\">Inne</inne>
+<inne lang=\"en\">Other</inne>
+<kalendarz lang=\"pl\">Kalendarz</kalendarz>
 <kalendarz lang=\"en\">Calendar</kalendarz>
 <kategorie lang=\"pl\">kategorie</kategorie>
 <kategorie lang=\"en\">categories</kategorie>
@@ -30,7 +33,10 @@ class datasourcedictionary extends StaticXMLDatasource
 <polityka-prywatnosci lang=\"pl\">Polityka prywatności</polityka-prywatnosci>
 <polityka-prywatnosci lang=\"en\">Privacy policy</polityka-prywatnosci>
 <projekty lang=\"pl\">Projekty</projekty>
-<projekty lang=\"en\">Projects</projekty><regon lang=\"pl\">REGON</regon>
+<projekty lang=\"en\">Projects</projekty>
+<publikacje lang=\"pl\">Publikacje</publikacje>
+<publikacje lang=\"en\">Publications</publikacje>
+<regon lang=\"pl\">REGON</regon>
 <regon lang=\"en\">REGON</regon><stacja-transformacja lang=\"pl\">Stacja Transformacja</stacja-transformacja>
 <stacja-transformacja lang=\"en\">Transformation Station</stacja-transformacja>
 <subscribe lang=\"pl\">Wyślij</subscribe>
@@ -46,7 +52,14 @@ class datasourcedictionary extends StaticXMLDatasource
 <search-negative lang=\"en\">Try again or go back to <a href=\"{$root}\">the home page</a>. No search results for keyword</search-negative><zarzad lang=\"pl\">zarząd</zarzad>
 <zarzad lang=\"en\">board</zarzad>
 <zespol lang=\"pl\">zespół</zespol>
-<zespol lang=\"en\">team</zespol>';
+<zespol lang=\"en\">team</zespol>
+<uszczerbki-i-starty lang=\"pl\">Alternativa 2016 \"Uszczerbki i starty\"</uszczerbki-i-starty>
+<uszczerbki-i-starty lang=\"en\">Alternativa 2016 \"Damage &amp; Loss\"</uszczerbki-i-starty>`';
+    
+
+    
+
+    
 
     public function __construct($env = null, $process_params = true)
     {
@@ -60,10 +73,10 @@ class datasourcedictionary extends StaticXMLDatasource
             'name' => 'Dictionary',
             'author' => array(
                 'name' => 'Olaf Schindler',
-                'website' => 'http://f-alt.org',
+                'website' => 'http://localhost/f-alt.org',
                 'email' => 'studio@orkana39.pl'),
             'version' => 'Symphony 2.6.1',
-            'release-date' => '2016-01-20T21:03:30+00:00'
+            'release-date' => '2016-06-14T12:15:40+00:00'
         );
     }
 
