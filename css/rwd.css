@@ -230,22 +230,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @media screen and (min-width: 699px) and (max-width: 888px) {
-  section:not(.top-nav) {
+  section:not(.top-nav):not(.cookie-info):not(.newsletter-info) {
     width: 572px;
   }
-}
-
-@media screen and (max-width: 698px) {
-
-
-  section:not(.top-nav) {
-    width: 90%;
+  header {
+    width: 100%;
+    }
+  .post article:not(.brick) {
+    width: 100%;
   }
-
-  body{
-    font-size: 14px;
-  }
-
   /***TOP NAV***/
   .top-nav {
     display: none;
@@ -253,12 +246,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .top-nav.mobile {
     display: block;
   }
+}
 
-	
+@media screen and (max-width: 698px) {
+  section:not(.top-nav) {
+    width: 90%;
+  }
+  body{
+    font-size: 14px;
+  }
+  /***TOP NAV***/
+  .top-nav {
+    display: none;
+  }
+  .top-nav.mobile {
+    display: block;
+  }
   header, .post article:not(.brick), .about article:not(.brick), .partners, .banner{
     width: 100%;
   }
-
   /***HOME***/
 	.calendar .event-info {
 		width: 92%;
