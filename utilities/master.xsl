@@ -95,7 +95,7 @@
 											<a href="javascript:void(0)">2015</a>
 											<ul>
 												<li><a href="/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
-												<li><a href="/pl/news/#filter=.palermo">Palermo</a></li>
+												<li><a href="/pl/news/#filter=.palermo">What's plain invites pattern</a></li>
 											</ul>
 										</li>
 										<li>
@@ -151,7 +151,7 @@
 								<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /> 2015</span>
 								<ul>
 									<li><a href="/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
-									<li><a href="/pl/news/#filter=.palermo">Palermo</a></li>
+									<li><a href="/pl/news/#filter=.palermo">What's plain invites pattern</a></li>
 								</ul>
 							</li>
 
@@ -264,9 +264,8 @@
 					<article>
 						<p class="footnote">
 						<strong><xsl:value-of select="//dictionary/nr-rach[@lang = $language]" /></strong><br/>
-						58 1750 0012 0000 0000 3329 7898<br/>Raiffaisen Polbank <br/>
-						<!--<strong>iban:</strong> PL 80 1020 1811 0000 0802 0259 9892
-						<strong>SWIFT:</strong> BPKOPLPW <br/>-->
+						<strong>IBAN</strong> PL 58 1750 0012 0000 0000 3329 7898<br />
+						<strong>SWIFT</strong> RCBWPLPW<br/>
 						</p>
 					</article>
 				</section>
