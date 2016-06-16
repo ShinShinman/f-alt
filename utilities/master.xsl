@@ -43,8 +43,8 @@
 				<xsl:apply-templates mode="meta-tags"/>
 
 				<link rel="stylesheet" href="{$workspace}/css/normalize.min.css"/>
-				<link rel="stylesheet" href="{$workspace}/css/main.css"/>
-				<link rel="stylesheet" href="{$workspace}/css/rwd.css"/>
+				<link rel="stylesheet" href="{$workspace}/css/main160616.css"/>
+				<link rel="stylesheet" href="{$workspace}/css/rwd160616.css"/>
 
 <!--
 				<link rel="stylesheet" href="{$workspace}/css/slick.css"/>
