@@ -1,9 +1,9 @@
-.syignore
-.syncany/
+audio/*
 bower_components/
 node_modules/
 static/
 fonts/
 images/*
+static/
 *.sublime-workspace
 *.sublime-project
