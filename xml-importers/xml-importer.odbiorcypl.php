@@ -13,7 +13,7 @@
 				'description'	=> 'Imports newsletter recipients',
 				'file'			=> __FILE__,
 				'created'		=> '2015-05-16T10:31:14+00:00',
-				'updated'		=> '2015-05-18T09:30:53+00:00'
+				'updated'		=> '2016-06-22T15:56:44+00:00'
 			);
 		}
 
@@ -23,23 +23,23 @@
 				'fields'			=> array (
   0 => 
   array (
-    'field' => '125',
+    'field' => '227',
     'xpath' => 'name/text()',
     'php' => '',
   ),
   1 => 
   array (
-    'field' => '126',
+    'field' => '228',
     'xpath' => 'email/text()',
     'php' => '',
   ),
 ),
 				'included-elements'	=> '//entry',
 				'namespaces'		=> NULL,
-				'source'			=> '{$root}/news-letter-nowy-pl.xml',
+				'source'			=> '{$root}/nowe-adresy-email.xml',
 				'timeout'			=> '60',
-				'section'			=> '20',
-				'unique-field'		=> '126'
+				'section'			=> '34',
+				'unique-field'		=> NULL
 			);
 		}
 
