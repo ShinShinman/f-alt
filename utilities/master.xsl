@@ -92,17 +92,17 @@
 									<ul>
 										<!--<xsl:apply-templates select="data/main-menu/entry[projects = 'Yes']"/>-->
 										<li>
-											<a href="javascript:void(0)">2015</a>
-											<ul>
-												<li><a href="/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
-												<li><a href="/pl/news/#filter=.palermo">What's plain invites pattern</a></li>
-											</ul>
-										</li>
-										<li>
 											<a href="javascript:void(0)">2016</a>
 											<ul>
 												<li><a href="/pl/news/2016/#filter=.alterantiva-2016-uszczerbki-i-starty"><xsl:value-of select="//dictionary/uszczerbki-i-starty[@lang = $language]" /></a></li>
 												<li><a href="/pl/news/2016/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0)">2015</a>
+											<ul>
+												<li><a href="/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
+												<li><a href="/pl/news/#filter=.palermo">What's plain invites pattern</a></li>
 											</ul>
 										</li>
 										<li><a href="/pl/news/#filter=.publikacje"><xsl:value-of select="//dictionary/publikacje[@lang = $language]" /></a></li>
@@ -148,14 +148,6 @@
 							</li>
 
 							<li class="label">
-								<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /> 2015</span>
-								<ul>
-									<li><a href="/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
-									<li><a href="/pl/news/#filter=.palermo">What's plain invites pattern</a></li>
-								</ul>
-							</li>
-
-							<li class="label">
 								<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /> 2016</span>
 								<ul>
 									<li><a href="/pl/news/2016/#filter=.alterantiva-2016-uszczerbki-i-starty"><xsl:value-of select="//dictionary/uszczerbki-i-starty[@lang = $language]" /></a></li>
@@ -163,6 +155,14 @@
 								</ul>
 							</li>
 
+							<li class="label">
+								<span><xsl:value-of select="//dictionary/projekty[@lang = $language]" /> 2015</span>
+								<ul>
+									<li><a href="/pl/news/2015/#filter=.stacja-transformacja"><xsl:value-of select="//dictionary/stacja-transformacja[@lang = $language]" /></a></li>
+									<li><a href="/pl/news/#filter=.palermo">What's plain invites pattern</a></li>
+								</ul>
+							</li>
+							
 							<li><a href="/pl/news/#filter=.publikacje"><xsl:value-of select="//dictionary/publikacje[@lang = $language]" /></a></li>
 							<li><a href="/pl/news/#filter=.inne"><xsl:value-of select="//dictionary/inne[@lang = $language]" /></a></li>
 
