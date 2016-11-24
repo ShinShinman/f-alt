@@ -126,7 +126,7 @@
 	<a href="{$root}/{$language}/post/{title[@lang = $language]/@handle}">
 		<div class="item">
 			<xsl:if test="cover">
-				<div class="cover grey-filter" style="background-image: url({$workspace}{cover/@path}/{cover/filename});"></div>
+				<div class="cover grey-filter" style="background-image: url({$root}/image/2/0/590/1{cover/@path}/{cover/filename});"></div>
 			</xsl:if>
 			<div class="text">
 			  <xsl:if test="series[@lang = $language]">
@@ -162,7 +162,7 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
 	<script src="{$workspace}/js/vendor/moment-2.8.3.js"></script>
 	<script src="{$workspace}/js/vendor/clndr.js"></script>
-	<script src="{$workspace}/js/vendor/perfect-scrollbar.jquery.min.js"></script>
+	<!--<script src="{$workspace}/js/vendor/perfect-scrollbar.jquery.min.js"></script>-->
 
 	<script>
 
