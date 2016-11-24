@@ -27,6 +27,7 @@
 	<xsl:include href="get-about-brick.xsl"/>
 	<xsl:include href="get-about-menu.xsl"/>
 	<xsl:include href="get-about-header.xsl"/>
+	<xsl:include href="google-analytics.xsl"/>
 
 	<xsl:template match="/">
 
@@ -276,6 +277,7 @@
 				<script src="{$workspace}/js/vendor/hyphenator.js"></script>
 				<script src="{$workspace}/js/vendor/jquery.form.min.js"></script>
 				<script src="{$workspace}/js/vendor/js.cookie.js"></script>
+				<xsl:call-template name="google-analytics"/>
 				<xsl:apply-templates mode="js"/>
 				<script>
 
